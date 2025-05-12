@@ -14,11 +14,19 @@ body {
 /* Image Styles */
 
 .image-container {
-  width: 5px;
-  height: 5px;
-  background-color: #ccc;
-  background-image: url(./image/caramel-apple.jpg);
-  background-size: cover;
-  background-position: center;
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+};
+
+.image-container img {
+  width: 10px;
+  height: auto;
+  border-radius: 50%;
+};
+
+.photoUrl img{
+  width: 50px;
+  height: auto;
   border-radius: 50%;
 };
